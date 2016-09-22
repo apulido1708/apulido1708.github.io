@@ -1,0 +1,75 @@
+/* font-family: 'Baloo Tamma', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+
+#contenido
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+
+}
+body{
+
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+h1{
+	font-family: 'Balco Tamma', cursive;
+	color:white;
+	margin-left: 10px;
+	font-size: 40px;
+	text-align:center;
+}
+
+h2{
+	font-family:'Roboto', sans-serif;
+	color:white;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align:left;
+}
+
+header{
+	font-color: white; 
+	width:1000px;
+	height:120px;
+	background: rgba(255, 255, 255, 3,5);
+}
+
+nav{
+	width:1000px;
+	height: 50px;
+	background:red;
+	border-radius:10px; 
+}
+
+ul{
+	margin:auto;
+	padding-top:4px;	
+}
+
+li{
+	float:left;
+	list-style-type:none;
+	padding:10px;
+	background:#000;
+	margin:3px;
+	border-radius:10px; 
+	box-shadow: 0 0 10px white inset;
+}
+/*CLASE*/
+.ancho_menu_home{width:900px}
+.ancho_menu_paginas{width:970px}
+
+.menu:link{color:white;text-decoration:none;}
+.menu:visited{color:white;text-decoration:none;}
+.menu:active{color:white;text-decoration:none;}
+.menu:hover{color:white;text-decoration: none; text-shadow: 0 0 13px white;}
+/*seudo clase*/
+
+
