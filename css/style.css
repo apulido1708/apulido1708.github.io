@@ -5,7 +5,7 @@ font-family: 'Montserrat', sans-serif;*/
 
 #contenido
 {
-	width: 1000px;
+	width:1000px;
 	height: auto;
 	margin: auto;
 	position: relative;
@@ -13,63 +13,220 @@ font-family: 'Montserrat', sans-serif;*/
 }
 body{
 
-	background-image: url(../img/fondo.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;	
+	background-color: #00;
+
 }
 
 h1{
-	font-family: 'Balco Tamma', cursive;
-	color:white;
+	font-family: 'Roboto', sans-serif;
+	color: #1D1D1D;
 	margin-left: 10px;
-	font-size: 40px;
-	text-align:center;
+	font-size: 35px;
+	text-align: center; 
 }
 
 h2{
 	font-family:'Roboto', sans-serif;
-	color:white;
+	color: #00C;
 	margin-left: 10px;
-	font-size: 20px;
-	text-align:left;
+	font-size: 25px;
+	text-align: center; 
 }
 
+h3{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: center; 
+}
+
+
 header{
-	font-color: white; 
-	width:1000px;
-	height:120px;
-	background: rgba(255, 255, 255, 3,5);
+	width: 1000px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 10,70);
 }
 
 nav{
-	width:1000px;
+	width: 1000px;
 	height: 50px;
-	background:red;
-	border-radius:10px; 
+	padding-bottom:0px;
+	background: #006680;
+	border-radius: 5px;
 }
-
 ul{
-	margin:auto;
-	padding-top:4px;	
+	margin: auto;
+
 }
 
 li{
-	float:left;
-	list-style-type:none;
-	padding:10px;
-	background:#000;
-	margin:3px;
-	border-radius:10px; 
-	box-shadow: 0 0 10px white inset;
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: #006680;
+	margin: 0px;
+	border-radius: 0px;
+
+
 }
-/*CLASE*/
-.ancho_menu_home{width:900px}
-.ancho_menu_paginas{width:970px}
 
-.menu:link{color:white;text-decoration:none;}
-.menu:visited{color:white;text-decoration:none;}
-.menu:active{color:white;text-decoration:none;}
-.menu:hover{color:white;text-decoration: none; text-shadow: 0 0 13px white;}
-/*seudo clase*/
+section{
+	width: 700px;
+	background: #B3B3B3;
+	height: 600px;
+	float: left;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+aside{
+
+	width: 295px;
+	background:#808080;
+	height: 600px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+footer{
+	clear:both;
+	width:1000px;
+}
+
+footer #datos{
+	width:565px;
+	height:65px;
+	margin-right:5px;
+	padding-bottom:20px;
+
+}
 
 
+footer #redes_sociales{
+	width:430px;
+	padding-top:5px;
+	height:78px;
+}
+
+footer #redes_sociales > div{
+	width:200px;
+	height:60px;
+	float:left;
+	border-radius: 5px;
+
+
+	
+}
+
+footer #redes_sociales > div a{
+	width:200px;
+	height:60px;
+	display:inline-block;	
+}
+
+	
+
+p{
+
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+
+
+/*CLASES*/
+
+.logo{
+	float: left;
+	width:300px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom:5px;     
+}
+
+
+.image{
+
+	float: left;
+	width:300px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom:5px;     
+}
+
+.correo_img{
+	float: left;
+	width:50px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom:5px;     
+	border-radius: 30px;
+	
+}
+a:link   
+{   
+ text-decoration:none;   
+} 
+
+.link
+{
+	text-decoration:none;
+	font-size:12px;
+	text-align:center;
+	color:#006;
+}
+.fin{
+	font-size:12px;
+	text-align:center;
+	color:#333;
+	line-height:15px;
+}
+
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+
+ul {
+		list-style:none;
+	}
+	
+.boton {
+		height:10px;
+		width:1000px; 
+		margin:0 auto;
+	}
+.boton li a {
+		background-color:#006680;
+		color:#fff;
+		text-decoration:none;
+		height:20px;
+		padding:5px 40px;
+		display:block;
+	}
+	
+.boton li a:hover {
+		background-color:#000;
+		color:#CF3;
+	}	
+	
+.boton li a:active {
+		background-color:#CF3;
+		color:#000;
+	}	
+	
+	
+	
+
+ 
+ 
