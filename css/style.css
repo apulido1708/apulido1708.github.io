@@ -438,3 +438,7 @@ p {
 	float: left;
 	margin-right:10px;
 	height:100px
+}
+.twitter-timeline{
+	display: inline-block;	
+}
