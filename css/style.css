@@ -101,6 +101,8 @@ div {
 }
         div {
 	font-size: 18px;
+	margin-left: 10%;
+	margin-right: 20%;
 }
         .class body nav .menu #apDiv3 form {
 	font-size: 12px;
@@ -389,3 +391,35 @@ p {
 	font-weight: normal;
 	color: #333;
 }
+
+.autor
+{
+	font-size: 16px;
+	font-variant: normal;
+	color: #039;
+}
+
+.autor1
+{
+	height:60%;
+}
+
+.autor1 h2 {
+	text-align:center;
+	font-size:14px;
+	color:#655CB8;
+}
+.autor1 p{
+
+	text-align: left;
+	font-size: 13px;
+	color: #262626;
+	line-height: normal;
+}
+.autor1 img {
+	float: left;
+	margin-right:10px;
+	height:100px;
+}
+
+
