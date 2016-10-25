@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>Evaluacion Lectura 1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+alert("Esta es la evaluacion correspondiente a la lectura 1 \n\nSelecciona las respuestas correctas, debes tener en"+
+      "\ncuenta:\n\n1. Los aciertos tienen el valor de un punto") 
+
+var resp = new Array;
+var faite = new Array;
+var score = 0;
+
+resp[1] = "a";
+resp[2] = "a";
+resp[3] = "b";
+resp[4] = "c";
+resp[5] = "c";
+
+function Engine(question, repose) 
+{
+   if (repose != resp[question])
+   {
+             if (!faite[question])
+              {faite[question] = -1;}
+                }
+        else {
+
+                if (!faite[question]) {
+                        faite[question] = -1;
+                        score++;
+                        alert("Correcto, puntuacion : " + score );
+                        }
+
+                }
+}
+
+function Nivel () {
+      
+        if (score >= 4 && score < 6) {
+                alert(score + "/5 " + "Excelente");
+                }
+        if (score >= 1 && score < 3) {
+                alert(score + "/5 " + "Esfuerzate un poco mas");
+                }
+        if (score < 1) {
+                alert("Su puntuacion es: "+ score 
+        +"\nLa puntuacion maxima que podia obtener es 5" 
+        +"\nTu puntaje es muy bajo, esfuerzate un poco mas");
+                }
+}
+
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="785" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#336699" height="2">
+  <tr> 
+    <td width="50" rowspan="2"><img src="data:image/png;base64,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" width="50" height="50"></td>
+    <td width="515" class="TopicTitle"><font face="Verdana, Arial, Helvetica, sans-serif" color="#336699"><b>Evaluacion Lectura # 1</b></font></td>
+  </tr>
+  <tr> 
+    <td width="515" bgcolor="#336699"> </td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td> </td>
+    <td class="TopicSubtitle"><font face="Verdana, Arial, Helvetica, sans-serif" color="#336699"> Preguntas de seleccion multiple</font></td>
+  </tr>
+  <tr> 
+    <td height="521"> </td>
+    <td height="521"> 
+      <div align="center">
+<div align="left">
+<FORM NAME="formulario" ACTION="">
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">1. Que es la Web 2.0?</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=a>
+              a. Cambio sobre la concepcion de intenet y sus funcionalidades.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=b>
+              b. La logica relacional y conceptual.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=c>
+              c. Lenguaje de programacion orientado a objetos.</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+              <br>
+              2. El principal objetivo de la Web 2.0 es:</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=a>
+              a. Compartir contenidos.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=b>
+              b. Interactuar con los usuarios.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=c>
+              c. Crear espacios de informacion.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">3. 
+              3. En ocasiones los usuarios pueden estar conectados entre si formado una:</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=a>
+              a. Conexion en la red.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=b>
+              b. Comunidad de usuarios.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=c>
+              c. Red de trabajo compartido.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              4. La interaccion entre los usuarios facilita el intercambio de:</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=a>
+              a. Informacion e imagenes.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=b>
+              b. Videos y opiniones.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=c>
+              c. Todas las anteriores.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              5. La Web 2.0 es una buena opcion para la ejecuion de: </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=a>
+              a. Un proyecto tecnologico.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=b>
+              b. Una red social.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=c>
+              c. Una idea de negocio.</font></p>
+            <p></p>
+            <p> 
+              <input name=Resulta onClick=Nivel() type=button value=Resultados>
+              <input type="button" name="repose" value="Respuestas Correctas"
+               onClick="alert('reposes Correctas \n\n 1a  2a  3b\n\n 4c  5c')">
+              <input type="reset" value="Borrar resultados" name="reset">
+            </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> Presiona 'F5' para presentar la prueba nuevamente</font></p>
+            </FORM> 
+  </div>
+      </div>
+    </td>
+  </tr>
+</table>
+<p> </p>
+
+</body>
+</html>
